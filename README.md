@@ -1,6 +1,5 @@
-# p4da-capstone-api
-API ini dinominasikan sebagai capstone project yang berguna untuk mengirimkan data kepada user. Proses wrangling dilakukan sesuai endpoint-endpoint dibawah.
-Base url dari aplikasi ini adalah https://fabfabfab99.herokuapp.com
+# API Capstone
+API ini dinominasikan sebagai capstone project yang berguna untuk mengirimkan data kepada user. Proses wrangling dilakukan sesuai endpoint-endpoint dibawah. Base url dari aplikasi ini adalah https://fabfabfab99.herokuapp.com
 Endpoints: 
 ```
     1. /bestbook/ methods=['GET']
@@ -13,7 +12,7 @@ Endpoints:
     Merupakan static endpoint untuk mengembalikan informasi dari chinook.db untuk seluruh invoice dari tahun 2012 untuk genre 'Rock', 'Jazz', 'Metal'
 ```
 ___
-## Dependencies : 
+## Dependencies
 - Pandas    (pip install pandas)
 - Flask     (pip install flask)
 - Gunicorn  (pip install gunicorn)
