@@ -17,6 +17,8 @@ ___
 - Flask     (pip install flask)
 - Gunicorn  (pip install gunicorn)
 
+## Explanatory Data Analysis
+- lihat file API_fabian.ipynb
 __
 # Link untuk akses
 - https://fabfabfab99.herokuapp.com/bestbook/
