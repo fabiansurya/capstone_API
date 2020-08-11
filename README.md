@@ -9,7 +9,8 @@ Endpoints:
     Merupakan dynamic endpoint untuk mengembalikan informasi dari books_c.csv dengan rating dibawah sesuai dengan keinginan kita dalam bentuk JSON
         
     3. /Genre2012/ methods=['GET']
-    Merupakan static endpoint untuk mengembalikan informasi dari chinook.db untuk seluruh invoice dari tahun 2012 untuk genre 'Rock', 'Jazz', 'Metal'
+    Merupakan static endpoint untuk mengembalikan informasi dari chinook.db untuk seluruh invoice dari Juni - Desember 2012 untuk genre 'Rock'
+    *Lebih dari 6 bulan dan 2 genre akan terlalu berat untuk di hit
 ```
 ___
 ## Dependencies
