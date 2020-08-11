@@ -31,7 +31,36 @@ def min_rating(value):
     book = pd.read_csv('data/books_c.csv')
     mask = book['average_rating'] <= float(value)
     book = book[mask]
-    return (book.to_json())  
+    return (book.to_json()) 
+
+@app.route("/docs")
+def documentation():
+    return '''
+        <h1> Documentation </h1>
+        <h2> Static Endpoints 1 </h2>
+        <ol>
+            <li>
+                <p> /bestbook/ methods=['GET'] </p>
+                <p> Merupakan static endpoint untuk mengembalikan informasi dari books_c.csv dengan rating minimal 4  </p>
+            </li>
+        </ol>
+        
+        <h2> Static Endpoints 2 </h2>
+        <ol>
+            <li>
+                <p> /Genre2012/ methods=['GET'] </p>
+                <p> Merupakan static endpoint untuk mengembalikan informasi dari chinook.db untuk seluruh invoice dari tahun 2012 untukgenre 'Rock</p>
+            </li>
+        </ol>
+         
+        <h2> Dynamic Endpoints 1</h2>
+        <ol start = "2">
+            <li>
+                <p> /rating_book/<value>methods=['GET'] </p>
+                <p> Merupakan dynamic endpoint untuk mengembalikan informasi dari books_c.csv dengan rating dibawah sesuai dengan keinginan kita dalam bentuk JSON </p>
+            </li>
+        </ol>
+    '''
     
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
