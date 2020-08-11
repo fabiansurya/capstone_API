@@ -1,4 +1,4 @@
-# API Capstone
+## API Capstone
 API ini dinominasikan sebagai capstone project yang berguna untuk mengirimkan data kepada user. Proses wrangling dilakukan sesuai endpoint-endpoint dibawah. Base url dari aplikasi ini adalah https://fabfabfab99.herokuapp.com
 Endpoints: 
 ```
@@ -12,7 +12,7 @@ Endpoints:
     Merupakan static endpoint untuk mengembalikan informasi dari chinook.db untuk seluruh invoice dari Juni - Desember 2012 untuk genre 'Rock'
     *Lebih dari 6 bulan dan 2 genre akan terlalu berat untuk di hit
 ```
-___
+
 ## Dependencies
 - Pandas    (pip install pandas)
 - Flask     (pip install flask)
@@ -20,8 +20,8 @@ ___
 
 ## Explanatory Data Analysis
 - lihat file API_fabian.ipynb
-__
-# Link untuk akses
+
+## Link untuk akses
 - https://fabfabfab99.herokuapp.com/bestbook/
 - https://fabfabfab99.herokuapp.com//rating_book/3.5
 - https://fabfabfab99.herokuapp.com/Genre2012
