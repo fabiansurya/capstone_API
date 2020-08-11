@@ -57,7 +57,7 @@ def documentation():
         <h2> Dynamic Endpoints 1</h2>
         <ol start = "2">
             <li>
-                <p> /rating_book/<value>methods=['GET'] </p>
+                <p> /rating_book/&lt;value&gt;methods=['GET'] </p>
                 <p> Merupakan dynamic endpoint untuk mengembalikan informasi dari books_c.csv dengan rating dibawah sesuai dengan keinginan kita dalam bentuk JSON </p>
             </li>
         </ol>
