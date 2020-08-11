@@ -22,3 +22,4 @@ __
 - https://fabfabfab99.herokuapp.com/bestbook/
 - https://fabfabfab99.herokuapp.com//rating_book/3.5
 - https://fabfabfab99.herokuapp.com/Genre2012
+- https://fabfabfab99.herokuapp.com/docs
