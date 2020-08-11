@@ -1,6 +1,7 @@
 ## API Capstone
 API ini dinominasikan sebagai capstone project yang berguna untuk mengirimkan data kepada user. Proses wrangling dilakukan sesuai endpoint-endpoint dibawah. Base url dari aplikasi ini adalah https://fabfabfab99.herokuapp.com
-Endpoints: 
+
+### Endpoints: 
 ```
     1. /bestbook/ methods=['GET']
     Merupakan static endpoint untuk mengembalikan informasi dari books_c.csv dengan rating minimal 4  
